@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Genre Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- starting of the web page -->
+    <!-- header of the page -->
+    <header>MUSIC GENRE DETECTOR</header>
+
+    <!-- main container of the page -->
+    <div class="main">
+
+        <!-- upload container -->
+        <div class="upload">
+            <h1>Upload Your Music</h1>
+            <img class="music1" src="img1.jpg" alt="Upload Music">
+
+            <!-- input section in file form -->
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="file">Upload an audio file</label>
+                    <input type="file" id="file" name="file" accept="audio/*" required>
+                </div>
+
+                <!-- button for the predication -->
+                <button type="submit">Predict </button>
+            </form>
+        </div>
+
+        <!-- result container of the page  -->
+        <div class="detect">
+
+            <!-- deteaction conatiner  -->
+            <h2>Music Genre Detection</h2>
+            <img class="music2" src="img2.jpg" alt="Music Detected">
+
+            <!-- predicted result is diaplayed here -->
+            <div class="results" id="results">
+                <h3>Prediction Results</h3>
+                <p>Genre: <span id="detected-genre">--</span></p>
+                <p>Confidence: <span id="confidence">--</span></p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- foooter of the page -->
+    <footer>
+        &copy; 2024 Music Genre
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- web page end here -->
+</body>
+
+</html>

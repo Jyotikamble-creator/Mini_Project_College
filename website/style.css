@@ -1,0 +1,139 @@
+/* styling of the web pge bbegins here */
+/* styling the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* styling whole body */
+body {
+    background-color: rgb(153, 241, 38);
+    font-family: Arial, sans-serif;
+
+}
+
+/* stylingthe header of the page */
+header {
+    background-color: rgb(153, 241, 38);
+    color: rgb(16, 16, 15);
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+/* styling the main container */
+.main {
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(250, 222, 215);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+/* styling the predection and result container */
+.upload,
+.detect {
+    background-color: #000;
+    margin-bottom: 20px;
+    padding: 1rem;
+    border-radius: 8px;
+    color: rgb(145, 255, 0);
+    text-align: center;
+
+}
+
+/* styling the text content */
+h1,
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+/* styling the images */
+.music1,
+.music2 {
+    height: 200px;
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 50%;
+
+}
+
+/* styling the form input */
+.form-group {
+    margin-bottom: 1rem;
+
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #222;
+    color: rgb(115, 234, 18);
+    cursor: pointer;
+
+}
+
+/* styling the button */
+button {
+    background-color: rgb(115, 234, 18);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+button:hover {
+    background-color: rgb(0, 174, 255);
+
+}
+
+/* styling the result container */
+.results {
+    background-color: #000;
+    color: rgb(145, 255, 0);
+    padding: 1rem;
+    border-radius: 8px;
+    display: none;
+
+}
+
+/* styling the footer */
+footer {
+    background-color: rgb(153, 241, 38);
+    color: rgb(16, 16, 15);
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+/* styling of the webpage ends here */
